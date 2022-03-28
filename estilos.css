@@ -1,0 +1,376 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Roboto', sans-serif;;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 70px;
+}
+
+
+.formulario{
+    justify-content: center;
+    background-color: black; 
+    color: aliceblue;
+    box-shadow: #235e51c5 5px 5px 15px 5px ;
+    
+}
+
+
+.formulario .send{
+    border: 1px yellow solid;
+    color: black;
+    background-color: yellow;
+}
+
+/*PGINA INICIO inicio*/
+
+header{
+    justify-content: space-between;
+    background-color: #4f497a;
+    color: #f2f2f2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px ;
+}
+
+
+
+.usuario a{
+    text-align: center;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.usuario a:hover{
+    background-color: #f2f2f2;
+    color: #000000;
+    border-radius: 5px;
+}
+/*
+.settings{
+    border: red solid 1px;
+}
+*/
+.usuario img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+/*CONTENEDOR PADRE*/
+/*
+.contenedor-padre{
+    border: red solid 1px;
+}*/
+
+.izquierdo{
+    width: 35%;
+}
+
+.contenido-perfil{
+    border-radius: 15px;
+    background-color: #AE98D9;
+}
+.contenido-perfil p{
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+.caja-perfil{
+    width: 97%;
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #235e51c5 ;
+}
+
+.caja-perfil img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: solid 2px rgb(255, 255, 255);
+}
+
+.proyecto .send{
+    border: solid #AE98D9 1px;
+    background-color: #AE98D9!important;
+    
+}
+
+.proyecto .send:hover{
+    background-color: #5f5f8f!important;
+}
+
+
+.proyecto p{
+    color: #000000;
+    font-weight: 600;
+}
+
+.gastos {
+    width: 97%;
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #235e51c5;
+}
+
+.gastos p{
+    color: #594bbe;
+    font-weight: 600;
+    font-size: 45px;
+}
+/*
+.list-group{
+border:  solid red 1px;
+}
+*/
+
+/*derecho*/
+
+.derecho{
+    width: 65%;
+}
+
+.secciones{
+    justify-content: space-between;
+}
+
+.secciones .caja:hover{
+    background-color: #594bbe;
+    color: #f2f2f2;
+}
+
+
+
+.caja p{
+    width: 100%;
+    height: 100%;
+    color: #594bbe;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.caja-dinero{
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #235e51c5;
+
+}
+
+
+#oculto{
+    width: 30rem;
+}
+
+#oculto li{
+    font-size: 20px;
+}
+
+.caja{
+    text-align: center;
+   
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #235e51c5;
+
+}
+
+.center-list{border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #235e51c5 ;
+  
+}
+
+.caja-centerlist{
+    width: 50%;
+}
+
+.caja-centerlist P{
+    font-size: 20px;
+    font-weight: 500;
+    color: #594bbe;
+
+}
+
+
+
+.anotaciones{
+    border-left: #252591 solid 2px;
+    width: 50%;
+}
+
+.anotaciones p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #594bbe;
+}
+
+.disponible-ingresos{
+    justify-content: space-between;
+}
+
+.dinero-disponible {
+    
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #235e51c5 ;
+    width: 50%;
+
+}
+
+
+.dinero-disponible p{
+    font-size: 30px;
+    color: #594bbe;
+}
+
+.ingresos{
+    
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #235e51c5 ;
+    width: 50%;
+}
+
+.ingresos p{
+    font-size: 30px;
+    color: #594bbe;
+}
+
+.monto-disponible p{
+    color:  #084612;
+}
+
+.monto-disponible p{
+    font-size: 55px;
+}
+
+
+
+/*LISTA TAREAS----------------------*/
+:root {
+    --primary: #a5c882;
+    --secondary:#D33F49;
+    --light:#fff;
+    --dark:#000;
+    --diabled:#e7e7e7;
+}
+
+--:first-letter {
+text-transform: capitalize;
+}
+
+.roundBorder {
+    border-radius: 5px;
+}
+
+
+.list {
+    padding: 25px;
+    background-color: var(--light);
+    width: 80%;
+    max-width: 350px;
+}
+
+.date {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #FFCAC4;
+    color: #000000;
+}
+
+#dateNumber {
+    font-size:50px ;
+}
+
+
+
+
+#dataText {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+#dateMonth,
+#dateNumber,
+#dataText {
+    font-weight: 600;
+}
+
+#dateText{
+    font-weight: 600;
+    color: #000000;
+}
+
+#dateMonth,
+#dateYear {
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+form {
+    margin: 20px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 35px auto;
+    grid-column-gap: 15px;
+}
+
+
+input {
+    border: none;
+padding-left: 10px;
+background-color: var(--diabled);
+}
+
+
+input:focus {
+    outline: none;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+
+.addTaskButton,
+.orderButton {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.addTaskButton{
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: var(--diabled);
+}
+
+
+
+.orderButton {
+    background-color: var(--secondary);
+    color: var(--light);
+}
+
+
+
+.task {background-color: #F6E1EE;
+padding: 15px;
+margin-top: 15px;
+color:black;
+cursor: pointer;
+}
+
+.done {
+    background-color: var(--diabled);
+    text-decoration: line-through;
+    color: var(--dark);
+}
+
