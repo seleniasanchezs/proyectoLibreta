@@ -201,6 +201,18 @@ border:  solid red 1px;
 }
 
 
+.caja li:hover{
+    background-color: #594bbe;
+    color: #f2f2f2;
+
+}
+
+.caja-gastos li:hover{
+    background-color: #594bbe;
+    color: #f2f2f2;
+
+}
+
 
 .anotaciones{
     border-left: #252591 solid 2px;
