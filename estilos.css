@@ -378,5 +378,6 @@ cursor: pointer;
     background-color: var(--diabled);
     text-decoration: line-through;
     color: var(--dark);
+    display:none;
 }
 

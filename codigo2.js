@@ -60,10 +60,24 @@ const addNewTask = event => {
     if (!value) return;
     const task = document.createElement('div')
     task.classList.add('task', 'roundBorder');
+    task.classList.add('task', 'roundBorders');
     task.addEventListener('click', changeTaskState)
     task.textContent = value;
     tasksContainer.prepend(task);
     event.target.reset();
+/*
+    let borrar=document.getElementsByClassName('roundBorders');
+    console.log(borrar);
+ //   let task= getElementById('tasksContainer');
+    for(i=0;i< borrar.length;i++){
+        borrar[i].onclick=function(){
+            console.log('prueba');
+            tasksContainer.removeChild(borrar[i]);
+
+        }
+
+    }*/
+
 
 };
 
@@ -81,8 +95,12 @@ const order = () => {
     return[...toDo, ...done];
 }
 
+
+
 const renderOrderedTasks = () => {
     order().forEach(el => tasksContainer.appendChild(el) )
 }
 
 setDate();
+
+
